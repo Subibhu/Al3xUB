@@ -52,10 +52,10 @@ async def _(event):
     userid = event.from_id
     packname = f"{user.first_name}'s @XtraTgBot Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "Anubis69_roxx.png"
+    file_ext_ns_ion = "Zefalcon_roxx.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
@@ -63,7 +63,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{userid}'s @AnimatedStickersGroup"
         if userid == 719877937:
-            packshortname = "TheAnubis_Animated"
+            packshortname = "Zefalcon_Animated"
         else:
             packshortname = f"{user.first_name}'s animated" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
@@ -181,7 +181,7 @@ async def _(event):
 
 
     await event.edit(f"**Kanged!** `This sticker has been stolen to` [this place](t.me/addstickers/{packshortname})"
-                     f" `by` {DEFAULTUSER}\n**ᕦ(ò_óˇ)ᕤ**")
+                     f" `Like i stole the code me: ` {DEFAULTUSER}\n**ᕦ(ò_óˇ)ᕤ**")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
