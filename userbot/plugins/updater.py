@@ -44,15 +44,15 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/al3x13337/Al3xUB"
-BOT_IS_UP_TO_DATE = "`The userbot is up-to-date (Master Alex).\nThank you for Using my service.`"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Subibhu/Al3xUB"
+BOT_IS_UP_TO_DATE = "`The userbot is up-to-date (Master Ze Falcon).\nThank you for Using my service.`"
 NEW_BOT_UP_DATE_FOUND = (
-    "Hey Master Al3x! New Update Found For {branch_name}\n"
+    "Hey Master Ze Falcon New Update Found For {branch_name}\n"
     "\n\n{changelog}\n"
     "Hold On Master...Updating ..."
 )
 NEW_UP_DATE_FOUND = (
-    "Hey Master Al3x! New Update Found For {branch_name}\n"
+    "Hey Master Ze Falcon ! New Update Found For {branch_name}\n"
     "`Hold On Master...Updating`"
 )
 REPO_REMOTE_NAME = "temponame"
