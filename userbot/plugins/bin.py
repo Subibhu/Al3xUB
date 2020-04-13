@@ -1,8 +1,6 @@
 from requests import get
 from userbot.utils import admin_cmd
 import json
-
-
 @borg.on(admin_cmd("bin (.*)"))
 async def _(event):
     input_str = event.pattern_match.group(1)
@@ -20,7 +18,7 @@ async def _(event):
         typ = data["type"]
         brand = data["brand"]
         country = data["country"]["name"]
-        await event.edit(f"BIN: {BIN}/nName: {name}\nScheme: {scheme}\nType: {typ}\nBrand: {brand}\nCountry: {country}")
+        await event.edit(f"BIN: {BIN}\nName: {name}\nScheme: {scheme}\nType: {typ}\nBrand: {brand}\nCountry: {country}")
     except:
         await event.edit("Invalid BIN")
     
