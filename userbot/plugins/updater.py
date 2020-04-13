@@ -168,7 +168,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("Updating this bot Master Alex. Please be patient :)")
+    await message.edit("Updating this bot Master Ž€ ₣ΔŁĆØŇ |🇳🇵|. Please be patient :)")
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
