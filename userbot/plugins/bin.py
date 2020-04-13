@@ -19,7 +19,8 @@ async def _(event):
         scheme = data["scheme"]
         typ = data["type"]
         brand = data["brand"]
-        country = data["country"]["name"]await event.edit(f"BIN: {BIN}/nName: {name}\nScheme: {scheme}\nType: {typ}\nBrand: {brand}\nCountry: {country}")
+        country = data["country"]["name"]
+        await event.edit(f"BIN: {BIN}/nName: {name}\nScheme: {scheme}\nType: {typ}\nBrand: {brand}\nCountry: {country}")
     except:
         await event.edit("Invalid BIN")
     
