@@ -44,7 +44,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Subibhu/Al3xUB"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Subibhu/ZeBot"
 BOT_IS_UP_TO_DATE = "`The userbot is up-to-date (Master Ze Falcon).\nThank you for Using my service.`"
 NEW_BOT_UP_DATE_FOUND = (
     "Hey Master Ze Falcon New Update Found For {branch_name}\n"
