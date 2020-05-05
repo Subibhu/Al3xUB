@@ -21,6 +21,6 @@ async def amireallyalive(alive):
                      "`- NTC Bomber\n`"
                      "`- Temp-Mail\n`"
                      "`- Torlink and\n`"
-                     "`- Magnet link\n`"
-                     "`- Bin Checker\n\n`"
+                     "`- Magnet link\n\n`"
+                   
                      "Special Thanks To @Subibhu (Ž€ ₣ΔŁĆØŇ) for Kanging This Userbot.\n")
