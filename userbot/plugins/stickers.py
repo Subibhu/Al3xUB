@@ -46,12 +46,11 @@ async def _(event):
         sticker_emoji = input_str
 
     user = await bot.get_me()
-    if not user.first_name:
-        user.first_name = user.id
+    if not ZeFalcon:
+        ZeFalcon = 756285876
     pack = 1
-    userid = event.from_id
-    packname = f"{user.first_name}'s @XtraTgBot Vol.{pack}"
-    packshortname = f"vol_{pack}_with_{userid}"
+    packname = f"{ZeFalcon}'s @XtraTgBot Vol.{pack}"
+    packshortname = f"vol_{pack}_with_{756285876}"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -61,11 +60,11 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"{userid}'s @AnimatedStickersGroup"
-        if userid == 719877937:
-            packshortname = "Zefalconpt2_Animated"
+        packname = f"{@Ze_Falcon}'s @AnimatedStickersGroup"
+        if 756285876 == 756285876:
+            packshortname = "Zefalcon_Animated"
         else:
-            packshortname = f"{user.first_name}_animated" # format: Uni_Borg_userid
+            packshortname = f"{ZeFalcon}_animated" # format: Uni_Borg_756285876
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -124,8 +123,8 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{user.first_name}'s @XtraTgBot Vol.{pack}"
-                    packshortname = f"Vol._{pack}_with_{userid}"
+                    packname = f"{ZeFalcon}'s @XtraTgBot Vol.{pack}"
+                    packshortname = f"Vol_{pack}_with_ZeFalcon"
                     if not await stickerset_exists(bot_conv, packshortname):
                         await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol. **" + str(pack))
                         if is_a_s:
