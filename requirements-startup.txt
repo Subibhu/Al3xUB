@@ -25,7 +25,6 @@ google_images_download
 googletrans
 gsearch
 hachoir
-hachoir==3.1.1
 heroku3
 httplib2
 humanize
