@@ -46,11 +46,12 @@ async def _(event):
         sticker_emoji = input_str
 
     user = await bot.get_me()
-    if not ZeFalcon:
-        ZeFalcon = 756285876
+    if not user.first_name:
+        user.first_name = user.id
     pack = 1
-    packname = f"{ZeFalcon}'s @XtraTgBot Vol.{pack}"
-    packshortname = f"vol_{pack}_with_{756285876}"
+    userid = event.from_id
+    packname = f"@Ze_Falcon's Ž€ ₣ΔŁĆØŇ  Userbot Vol{pack}"
+    packshortname = f"vol_{pack}_with_{userid}"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -60,11 +61,11 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"{@Ze_Falcon}'s @AnimatedStickersGroup"
-        if 756285876 == 756285876:
-            packshortname = "Zefalcon_Animated"
+        packname = f"Ž€ ₣ΔŁĆØŇ |🇳🇵|_animated"
+        if userid == 719877937:
+            packshortname = "Zefalconpt2_Animated"
         else:
-            packshortname = f"{ZeFalcon}_animated" # format: Uni_Borg_756285876
+            packshortname = f"@Ze_Falcon_animated" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -123,10 +124,10 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{ZeFalcon}'s @XtraTgBot Vol.{pack}"
-                    packshortname = f"Vol_{pack}_with_ZeFalcon"
+                    packname = f"@Ze_Falcon's Ž€ ₣ΔŁĆØŇ  Userbot Vol{pack}"
+                    packshortname = f"Vol_{pack}_with_{userid}"
                     if not await stickerset_exists(bot_conv, packshortname):
-                        await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol. **" + str(pack))
+                        await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol **" + str(pack))
                         if is_a_s:
                             response = await silently_send_message(bot_conv, "/newanimated")
                         else:
@@ -156,7 +157,7 @@ async def _(event):
                             await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
                             return
                     else:
-                        await event.edit("Pack No. " + str(prevv) + " full! Switching to Vol. " + str(pack))
+                        await event.edit("Pack No. " + str(prevv) + " full! Switching to Vol " + str(pack))
                         await silently_send_message(bot_conv, "/addsticker")
                         await silently_send_message(bot_conv, packshortname)                                                                            
                         await bot_conv.send_file(
