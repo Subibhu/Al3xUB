@@ -59,6 +59,5 @@ sqlalchemy
 telegraph
 tgcrypto
 urbandict
-userge
 wget
 wikipedia
