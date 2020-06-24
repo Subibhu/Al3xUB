@@ -35,7 +35,6 @@ urbandict==0.5
 wget
 wikipedia
 youtube_dl
-Pillow>=5.3.0
 PyGithub
 aria2p
 async_generator
