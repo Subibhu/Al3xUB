@@ -51,7 +51,7 @@ async def _(event):
     pack = 1
     userid = event.from_id
     packname = f"@Ze_Falcon's Ž€ ₣ΔŁĆØŇ  Userbot Vol{pack}"
-    packshortname = f"vol_{pack}_with_@Ze_Falcon"
+    packshortname = f"vol_{pack}_with_Ze_Falcon"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -65,7 +65,7 @@ async def _(event):
         if userid == 719877937:
             packshortname = "Zefalcon_Animated"
         else:
-            packshortname = f"@Ze_Falcon_animated" # format: Uni_Borg_userid
+            packshortname = f"Ze_Falcon_animated" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -125,7 +125,7 @@ async def _(event):
                     pack += 1
                     prevv = int(pack) - 1
                     packname = f"@Ze_Falcon's Ž€ ₣ΔŁĆØŇ  Userbot Vol{pack}"
-                    packshortname = f"Vol_{pack}_with_@Ze_Falcon"
+                    packshortname = f"Vol_{pack}_with_Ze_Falcon"
                     if not await stickerset_exists(bot_conv, packshortname):
                         await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol **" + str(pack))
                         if is_a_s:
