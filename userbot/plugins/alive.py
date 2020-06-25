@@ -19,8 +19,8 @@ async def amireallyalive(alive):
                      "`Newly Added Features:\n`"
                      "`- Ncell Bomber:\n`"
                      "`- NTC Bomber\n`"
-                     "`- Temp-Mail\n`"
+                     "`- Temp-Mail (ded)\n`"
                      "`- Torlink and\n`"
                      "`- Magnet link\n\n`"
                    
-                     "Special Thanks To @Subibhu (Ž€ ₣ΔŁĆØŇ) for Kanging This Userbot.\n")
+                     "Special Thanks To @Ze_Falcon (Ž€ ₣ΔŁĆØŇ) for Kanging This Userbot.\n")
