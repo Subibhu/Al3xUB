@@ -11,6 +11,7 @@ bwb
 cfscrape
 coffeehouse
 cowpy
+covid
 cryptg
 dnspython
 emoji
