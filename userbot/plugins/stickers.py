@@ -50,8 +50,8 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    packname = f"@Ze_Falcon's Ž€ ₣ΔŁĆØŇ  Userbot Vol{pack}"
-    packshortname = f"vol_{pack}_with_Ze_Falcon"
+    packname = f"Ž€ ₣ΔŁĆØŇ  Userbot Vol 2}"
+    packshortname = f"vol_2_with_Ze_Falcon"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -63,7 +63,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"@Ze_Falcon_animated"
         if userid == 719877937:
-            packshortname = "Zefalcon_Animated"
+            packshortname = "Zefalcon_Animated_2"
         else:
             packshortname = f"Ze_Falcon_animated" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
