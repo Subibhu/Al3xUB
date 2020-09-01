@@ -21,7 +21,7 @@ async def amireallyalive(alive):
                      "`- International Bomber (2 Diff Api):\n\n`"
 
                    
-                     "`Special Thanks To My Master` **@Ze_Falcon** `for Creating me.`**{random.choice(REACT)}\n**")
+                     f"`Special Thanks To My Master` **@Ze_Falcon** `for Creating me.`**{random.choice(REACT)}\n**"
 
     
     
