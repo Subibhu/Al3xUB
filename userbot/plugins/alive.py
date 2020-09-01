@@ -21,9 +21,6 @@ async def amireallyalive(alive):
                      "`- International Bomber (2 Diff Api):\n\n`"
 
                    
-                     f"`Special Thanks To My Master` **@Ze_Falcon** `for Creating me.`**{random.choice(REACT)}\n**"
-
-    
-    
+                     f"`Special Thanks To My Master` **@Ze_Falcon** `for Creating me.`**{random.choice(REACT)}\n**")
 REACT = ("乂❤‿❤乂", "(｡♥‿♥｡)", "( ͡~ ͜ʖ ͡°)", "໒( ♥ ◡ ♥ )७", "༼♥ل͜♥༽""( ͡° ͜ʖ ͡°)", "(ʘ‿ʘ)", "(✿´‿`)", "=͟͟͞͞٩(๑☉ᴗ☉)੭ु⁾⁾", "(*⌒▽⌒*)θ～♪",
          "°˖✧◝(⁰▿⁰)◜✧˖°", "✌(-‿-)✌", "⌒°(❛ᴗ❛)°⌒", "(ﾟ<|＼(･ω･)／|>ﾟ)", "ヾ(o✪‿✪o)ｼ")
