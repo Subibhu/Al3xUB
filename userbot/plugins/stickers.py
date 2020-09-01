@@ -53,7 +53,7 @@ async def _(event):
     userid = event.from_id
     packname = f"Ž€ ₣ΔŁĆØŇ  Userbot Vol 2"
     packshortname = f"vol_2_with_Ze_Falcon"
-    await event.edit(f"`{random.choice(KANGING_STR)}`")
+    await event.edit(f"`{random.choice(KANGING_STR)}`\n**{random.choice(FACE_REACTS)}**")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Zefalcon_roxx.png"
@@ -182,7 +182,7 @@ async def _(event):
 
 
     await event.edit(f"**Kanged!** `This sticker has been stolen to` [this place](t.me/addstickers/{packshortname})"
-                     f" `By My Master  `** {DEFAULTUSER}**\n**ᕦ(ò_óˇ)ᕤ**")
+                     f" `By My Master  `** {DEFAULTUSER}**\n**{random.choice(FACE_REACTS)}**")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
@@ -407,4 +407,23 @@ KANGING_STR = (
     "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
     "Imprisoning this sticker...",
     "Mr.Steal Your Sticker is stealing this sticker... "
-    "Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ")                     
+    "Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ")         
+                     
+                     
+FACE_REACTS = (
+    "ʘ‿ʘ", "ヾ(-_- )ゞ", "(っ˘ڡ˘ς)", "(´ж｀ς)", "( ಠ ʖ̯ ಠ)", "(° ͜ʖ͡°)╭∩╮", "(ᵟຶ︵ ᵟຶ)", "(งツ)ว",
+    "ʚ(•｀", "(っ▀¯▀)つ", "(◠﹏◠)", "( ͡ಠ ʖ̯ ͡ಠ)", "( ఠ ͟ʖ ఠ)", "(∩｀-´)⊃━☆ﾟ.*･｡ﾟ", "(⊃｡•́‿•̀｡)⊃",
+    "(._.)", "{•̃_•̃}", "(ᵔᴥᵔ)", "♨_♨", "⥀.⥀", "ح˚௰˚づ ", "(҂◡_◡)", "ƪ(ړײ)‎ƪ​​", "(っ•́｡•́)♪♬",
+    "◖ᵔᴥᵔ◗ ♪ ♫ ", "(☞ﾟヮﾟ)☞", "[¬º-°]¬", "(Ծ‸ Ծ)", "(•̀ᴗ•́)و ̑̑", "ヾ(´〇`)ﾉ♪♪♪", "(ง'̀-'́)ง",
+    "ლ(•́•́ლ)", "ʕ •́؈•̀ ₎", "♪♪ ヽ(ˇ∀ˇ )ゞ", "щ（ﾟДﾟщ）", "( ˇ෴ˇ )", "눈_눈", "(๑•́ ₃ •̀๑) ",
+    "( ˘ ³˘)♥ ", "ԅ(≖‿≖ԅ)", "♥‿♥", "◔_◔", "⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾", "乁( ◔ ౪◔)「      ┑(￣Д ￣)┍",
+    "( ఠൠఠ )ﾉ", "٩(๏_๏)۶", "┌(ㆆ㉨ㆆ)ʃ", "ఠ_ఠ", "(づ｡◕‿‿◕｡)づ", "༼ ༎ຶ ෴ ༎ຶ༽", "｡ﾟ( ﾟஇ‸இﾟ)ﾟ｡",
+    "(づ￣ ³￣)づ", "(⊙.☉)7", "ᕕ( ᐛ )ᕗ", "t(-_-t)", "(ಥ⌣ಥ)", "ヽ༼ ಠ益ಠ ༽ﾉ", "༼∵༽ ༼⍨༽ ༼⍢༽ ༼⍤༽",
+    "ミ●﹏☉ミ", "(⊙_◎)", "¿ⓧ_ⓧﮌ", "ಠ_ಠ", "(´･_･`)", "ᕦ(ò_óˇ)ᕤ", "⊙﹏⊙", "(╯°□°）╯︵ ┻━┻",
+    r"¯\_(⊙︿⊙)_/¯", "٩◔̯◔۶", "°‿‿°", "ᕙ(⇀‸↼‶)ᕗ", "⊂(◉‿◉)つ", "V•ᴥ•V", "q(❂‿❂)p", "ಥ_ಥ",
+    "ฅ^•ﻌ•^ฅ", "ಥ﹏ಥ", "（ ^_^）o自自o（^_^ ）", "ಠ‿ಠ", "ヽ(´▽`)/", "ᵒᴥᵒ#", "( ͡° ͜ʖ ͡°)",
+    "┬─┬﻿ ノ( ゜-゜ノ)", "ヽ(´ー｀)ノ", "☜(⌒▽⌒)☞", "ε=ε=ε=┌(;*´Д`)ﾉ", "(╬ ಠ益ಠ)", "┬─┬⃰͡ (ᵔᵕᵔ͜ )",
+    "┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻", r"¯\_(ツ)_/¯", "ʕᵔᴥᵔʔ", "(`･ω･´)", "ʕ•ᴥ•ʔ", "ლ(｀ー´ლ)", "ʕʘ̅͜ʘ̅ʔ",
+    "（　ﾟДﾟ）", r"¯\(°_o)/¯", "(｡◕‿◕｡)", "(ノಠ ∩ಠ)ノ彡( \\o°o)\\", "“ヽ(´▽｀)ノ”", "( ͡° ͜ʖ ͡°)",
+    r"¯\_(ツ)_/¯", "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)", "ʕ•ᴥ•ʔ", "(▀̿Ĺ̯▀̿ ̿)", "(ง ͠° ͟ل͜ ͡°)ง",
+    "༼ つ ◕_◕ ༽つ", "ಠ_ಠ", "(☞ ͡° ͜ʖ ͡°)☞", "¯_༼ ି ~ ି ༽_/¯", "c༼ ͡° ͜ʖ ͡° ༽⊃")
