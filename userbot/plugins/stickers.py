@@ -13,6 +13,7 @@ import math
 import os
 import requests
 import zipfile
+import random
 from telethon.errors.rpcerrorlist import StickersetInvalidError
 from telethon.errors import MessageNotModifiedError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
@@ -52,7 +53,7 @@ async def _(event):
     userid = event.from_id
     packname = f"Ž€ ₣ΔŁĆØŇ  Userbot Vol 2"
     packshortname = f"vol_2_with_Ze_Falcon"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit(f"`{random.choice(KANGING_STR)}`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Zefalcon_roxx.png"
@@ -393,3 +394,17 @@ def zipdir(path, ziph):
         for file in files:
             ziph.write(os.path.join(root, file))
             os.remove(os.path.join(root, file))
+
+                     
+KANGING_STR = (
+    "Using Witchery to kang this sticker...",
+    "Plagiarising hehe...",
+    "Inviting this sticker over to my pack...",
+    "Kanging this sticker...",
+    "Hey that's a nice sticker!\nMind if I kang?!..",
+    "hehe me stel ur stikér\nhehe.",
+    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
+    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
+    "Imprisoning this sticker...",
+    "Mr.Steal Your Sticker is stealing this sticker... "
+    "Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker'ass like i kanged this code hehe ヽ༼ ಠ益ಠ ༽ﾉ")                     
