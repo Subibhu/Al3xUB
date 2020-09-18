@@ -33,4 +33,4 @@ async def _(event):
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
     stdout, stderr = await process.communicate()
-    await event.edit(f"{stdout.decode()}")
+await event.edit(f"Long Url: {stdout.decode()['data']['full']}\nShort Url: {stdout.decode()['data']['full']}") 
